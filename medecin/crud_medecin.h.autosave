@@ -1,0 +1,23 @@
+#ifndef CRUD_MEDECIN_H
+#define CRUD_MEDECIN_H
+
+#include <QString>
+#include <QSqlQuery>
+#include <QSqlQueryModel>
+
+class crud_medecin
+{
+public:
+    crud_medecin();
+    
+    
+private:
+    QString nom_medecin,prenom_medecin,adresse_medecin;
+    QString adressemail_medecin,parcour_medecin;
+    QString ID_medecin;
+    
+};
+
+
+
+#endif // CRUD_MEDECIN_H
